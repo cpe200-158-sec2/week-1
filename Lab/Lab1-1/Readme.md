@@ -13,19 +13,19 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: I don't know.
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: I don't know.
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: I don't know.
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: I don't know.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 

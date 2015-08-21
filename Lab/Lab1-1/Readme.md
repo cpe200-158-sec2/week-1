@@ -13,7 +13,7 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: Help me!!
 
 2. What if two numbers equal, what will happen? 
 
@@ -25,7 +25,7 @@ Answer:
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: I don't know.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 

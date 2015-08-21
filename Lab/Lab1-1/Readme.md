@@ -21,7 +21,7 @@ Answer: จะไม่เข้ากระบวนการ if แล้ว�
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: (x-1)^2 , x = size of input
+Answer: [x , x^2] , x = size of input
 
 4. Why we need flag variable ? 
 

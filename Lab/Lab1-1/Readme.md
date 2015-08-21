@@ -21,7 +21,7 @@ Answer: ก็ไม่เกิดการเปรียบเทียบก
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: [i-1,(i-1)^2]
 
 4. Why we need flag variable ? 
 
@@ -29,4 +29,4 @@ Answer: เป็นตัวกำหนดเงื่อนไขในกา
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: 

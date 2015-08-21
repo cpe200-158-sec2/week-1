@@ -7,8 +7,8 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller:
-* Without flag:
+* Sort from larger to smaller:6422c04b579e466d595b9fcf50d475a316c47eca
+* Without flag:1b16e61fb07595584f5762221f1910976fd44e9c
 
 ## Questions
 1. How this code can sort number from smaller to larger

@@ -6,8 +6,15 @@
 * Change the code such that there is no flag variable, put the commit number below and answer question 5 
 
 
-## Revision, put your commit number here
+## Revision, put your commit number here  deeed9560b5c998849fab5b923521f603edbd070
 * Sort from larger to smaller:
+						if (input[i] < input[i + 1])
+                    {
+                        int temp = input[i];
+                        input[i] = input[i + 1];
+                        input[i + 1] = temp;
+                        flag = true;
+                    }
 * Without flag:
 
 ## Questions

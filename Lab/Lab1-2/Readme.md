@@ -5,10 +5,10 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
-* Get input from command line:
+* Three functions:0e1ffdc805951ad29b66e0b1b3983f918fba7a26
+* Get input from command line:94456e68d94de5fced03f8f5da893ae8cd65c144
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer:No limitation!

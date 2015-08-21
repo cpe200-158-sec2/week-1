@@ -13,20 +13,20 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: code is using buble sort.
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: not swap.
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer:  27 time.
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: flag must join in loob or out loob.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: if we remove flag.information that done before.it will make the process slower and it will go faster if don't have wile loop.

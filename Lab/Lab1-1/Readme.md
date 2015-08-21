@@ -13,7 +13,7 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: ทำงานโดยจะเช็คค่าข้อมูลเป็นคู่ๆ โดยให้ตัวเลขที่มีค่ามากกว่าจะถูกสลับไปทางด้านหน้า 
+Answer: ทำงานโดยจะเช็คค่าข้อมูลเป็นคู่ๆ โดยให้ตัวเลขที่มีค่ามากกว่าจะถูกสลับไปทางด้านหน้า
 
 2. What if two numbers equal, what will happen? 
 

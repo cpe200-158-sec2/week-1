@@ -21,7 +21,7 @@ Answer: ไม่เกิดอะไรขึ้นเพราะไม่เ
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: (n-1)n จะเป็นการใช้งานมากที่สุด เมื่อ n คือจำนวนตัวเลขที่ต้องการจะเรียง
+Answer: (n-1)n จะเป็นการใช้งานมากที่สุด เมื่อ n คือจำนวนตัวเลขที่ต้องการจะเรียง 
 
 4. Why we need flag variable ? 
 

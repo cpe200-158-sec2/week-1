@@ -10,34 +10,65 @@ namespace Lab1_2
     {
         static void Main(string[] args)
         {
-            bool flag = true;
+            static int[] input()
+         {
+                bool flag = true;
+                int x;
+                Console.WriteLine("Input many number :");
+                x = Convert.ToInt32(Console.ReadLine());
+                int[] z = new int[x];
 
-            // input
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
 
-            // process
-            while (flag)
-            {
-                flag = false;
-                for (int i = 0; i != input.Length - 1; i++)
+                for (int i = 0; i < x; i++)
                 {
-                    if (input[i] > input[i + 1])
-                    {
-                        int temp = input[i];
-                        input[i] = input[i + 1];
-                        input[i + 1] = temp;
-                        flag = true;
-                    }
+                    int y = i + 1;
+                    Console.WriteLine("number" + y);
+
+                    // input
+                    int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+                    int e = Convert.ToInt32(Console.ReadLine());
+                    z[i] = e;
                 }
+                return x;
+            }
+
+            static int[] process(int[] input)
+                    {
+                bool flag = true;
+
+                // process
+                while (flag)
+                {
+                    flag = false;
+
+                    static void Main(string[] args)
+
+                        }
             }
 
             // output
             for (int i = 0; i != input.Length; i++)
             {
                 Console.Write(input[i]);
-                Console.Write(" ");
+
+                return input;
             }
-            Console.ReadKey();
+
+            static void output(int[] number)
+                {
+                foreach (int i in number)
+                {
+                    Console.Write(i);
+                    Console.Write(" ");
+                }
+
+                Console.ReadKey();
+            }
+
+            static void Main(string[] args)
+                {
+                output(process(input()));
+
+            }
         }
     }
-}

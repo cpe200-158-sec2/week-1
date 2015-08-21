@@ -5,10 +5,10 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
-* Get input from command line:
+* Three functions 04e52573 
+* Get input from command line: 04e52573 
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: waste time to key many number..

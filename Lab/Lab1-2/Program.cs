@@ -24,7 +24,7 @@ namespace Lab1_2
                     if (input[i] > input[i + 1])
                     {
                         int temp = input[i];
-                        input[i] = input[i + 1];
+                        input[i] = input[i + 1]; 
                         input[i + 1] = temp;
                         flag = true;
                     }

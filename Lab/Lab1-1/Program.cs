@@ -22,7 +22,7 @@ namespace Lab1_1
                 for (int i = 0; i != input.Length - 1; i++)
                 {
                     c++;
-                    if (input[i] > input[i + 1])
+                    if (input[i] < input[i + 1])
                     {
                         int temp = input[i];
                         input[i] = input[i + 1];

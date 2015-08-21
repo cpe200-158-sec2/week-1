@@ -10,22 +10,26 @@ namespace Lab1_1
     {
         static void Main(string[] args)
         {
-            bool flag = true;
 
             // input
-            int[] input = { 1,2,3 };
+            int count = 0;
+            
+         
+            int[] input = { 9,2,7,6,1,2 };
+           
             // process
-            while (flag)
+            for (int j =0;j< input.Length; j++)
             {
-                flag = false;
+                
                 for (int i = 0; i != input.Length - 1; i++)
                 {
-                    if (input[i] < input[i + 1])
+                    count++;
+                    if (input[i] > input[i + 1])
                     {
                         int temp = input[i];
                         input[i] = input[i + 1];
                         input[i + 1] = temp;
-                        flag = true;
+                    
                     }
                 }
             }
@@ -36,7 +40,8 @@ namespace Lab1_1
                 Console.Write(input[i]);
                 Console.Write(" ");
             }
- 
+            Console.WriteLine(" ");
+            Console.Write("Loop :" + count);
             Console.ReadKey();
         }
     }

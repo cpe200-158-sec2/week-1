@@ -13,15 +13,14 @@ namespace Lab1_1
             bool flag = true;
 
             // input
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-
+            int[] input = { 1,2,3 };
             // process
             while (flag)
             {
                 flag = false;
                 for (int i = 0; i != input.Length - 1; i++)
                 {
-                    if (input[i] > input[i + 1])
+                    if (input[i] < input[i + 1])
                     {
                         int temp = input[i];
                         input[i] = input[i + 1];
@@ -37,6 +36,7 @@ namespace Lab1_1
                 Console.Write(input[i]);
                 Console.Write(" ");
             }
+ 
             Console.ReadKey();
         }
     }

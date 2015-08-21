@@ -13,7 +13,18 @@ namespace Lab1_2
             bool flag = true;
 
             // input
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            int l;
+
+            Console.Write("How many number : ");
+            l = Convert.ToInt32(Console.ReadLine());
+
+            int[] input = new int[l];
+
+            for (int i = 0; i != input.Length; i++)
+            {
+                Console.Write("Input Number : ");
+                input[i] = Convert.ToInt32(Console.ReadLine());
+            }
 
             // process
             while (flag)
@@ -21,7 +32,7 @@ namespace Lab1_2
                 flag = false;
                 for (int i = 0; i != input.Length - 1; i++)
                 {
-                    if (input[i] > input[i + 1])
+                    if (input[i] < input[i + 1])
                     {
                         int temp = input[i];
                         input[i] = input[i + 1];
@@ -32,6 +43,7 @@ namespace Lab1_2
             }
 
             // output
+            Console.Write("Sort number larger to smaller : ");
             for (int i = 0; i != input.Length; i++)
             {
                 Console.Write(input[i]);

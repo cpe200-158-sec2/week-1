@@ -17,15 +17,15 @@ Answer:this code use bubblesort way.its have bool to select the case of the numb
 
 2. What if two numbers equal, what will happen? 
 
-Answer:its will go to the next number.its will not get in a if loop. 
+Answer: its will go to the next number.its will not get in a if loop. 
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer:27 times 
+Answer: 27 times 
 
 4. Why we need flag variable ? 
 
-Answer:to choose the case of number to the next step.to get in a loop or to get out a loop.
+Answer: to choose the case of number to the next step.to get in a loop or to get out a loop.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 

@@ -9,7 +9,7 @@ namespace Lab1_2
     class BubbleSortFunction
     {
 
-        static List<int> inputs = new List<int>();
+        static int[] input;
 
         static void Main(string[] args)
         {
@@ -28,13 +28,13 @@ namespace Lab1_2
             while (flag)
             {
                 flag = false;
-                for (int i = 0; i != inputs.Count - 1; i++)
+                for (int i = 0; i != input.Length - 1; i++)
                 {
-                    if (inputs[i] > inputs[i + 1])
+                    if (input[i] > input[i + 1])
                     {
-                        int temp = inputs[i];
-                        inputs[i] = inputs[i + 1];
-                        inputs[i + 1] = temp;
+                        int temp = input[i];
+                        input[i] = input[i + 1];
+                        input[i + 1] = temp;
                         flag = true;
                     }
                 }
@@ -44,9 +44,9 @@ namespace Lab1_2
         private static void Output()
         {
             // output
-            for (int i = 0; i < inputs.Count; i++)
+            for (int i = 0; i != input.Length; i++)
             {
-                Console.Write(inputs[i]);
+                Console.Write(input[i]);
                 Console.Write(" ");
             }
             Console.ReadKey();
@@ -55,24 +55,8 @@ namespace Lab1_2
         private static void Input()
         {
             // input
-            String input = Console.ReadLine();
-            int number = 0;
-            int shit = 1;
-            while (!input.Equals("exit"))
-            {
-                if ((Int32.TryParse(input, out shit) ))
-                {
-                    number = int.Parse(input);
-                   
-                    inputs.Add(number);
-                 
-                }
-
-                input = Console.ReadLine();
-
-
-            }
-            //Console.WriteLine(tmp)
+            int[] tmp_input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            input = tmp_input;
         }
     }
 }

@@ -20,6 +20,19 @@ flag = false;
                     }
                 }
 * Without flag:
+ for(int j=0;j<=input.Length - 1;j++)
+                for (int i = 0; i <= input.Length - 1; i++)
+                {
+                   
+                    if (input[j] <= input[i])
+                    {
+                        int temp = input[j];
+                        input[j] = input[i];
+                        input[i ] = temp;
+                    
+                    }
+         
+                }
 
 ## Questions
 1. How this code can sort number from smaller to larger

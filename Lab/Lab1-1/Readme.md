@@ -8,6 +8,15 @@
 
 ## Revision, put your commit number here
 * Sort from larger to smaller:
+
+				if (input[i] < input[i + 1])
+                    {
+                        int temp = input[i];
+                        input[i] = input[i + 1];
+                        input[i + 1] = temp;
+                        flag = true;
+                    }
+
 * Without flag:
 
 ## Questions

@@ -29,4 +29,4 @@ Answer: เพื่อให้เป็นตัวกำหนดว่าก
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer:จะเร็วกว่าเคสที่ถูกเรียงไว้อยู่เเล้ว

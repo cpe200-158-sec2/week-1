@@ -7,8 +7,20 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller:
-* Without flag:
+* Sort from larger to smaller:  if (input[i] < input[i + 1]) แค่เปลี่ยนเครื่องหมาย
+* Without flag: for (int i = 0; i != input.Length - 1; i++)
+                {
+                    for (int j=i+1 ; j!=input.Length; j++)
+                    {
+                        if (input[j] < input[i])
+                        {
+                            int temp = input[j];
+                            input[j] = input[i];
+                            input[i] = temp;
+                        }
+                    }
+                    
+                }
 
 ## Questions
 1. How this code can sort number from smaller to larger

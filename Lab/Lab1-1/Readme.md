@@ -17,7 +17,7 @@ Answer: เข้า loop จัดทีละตัวตั้งแต่ต
 
 2. What if two numbers equal, what will happen? 
 
-Answer: ถ้าเลขที่ติดเท่ากันจะไม่เกิดอะไรขึ้นและข้ามไปทำในตัวถัดไปเลย เพราะผิดเงือนไข
+Answer: ถ้าเลขที่ติดเท่ากันจะไม่เกิดอะไรขึ้นและข้ามไปทำในตัวถัดไปเลย เพราะผิดเงือนไข 
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 

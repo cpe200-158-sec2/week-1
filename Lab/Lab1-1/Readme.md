@@ -16,6 +16,20 @@
                         flag = true;
                     }
 * Without flag:
+				for (int j = 0; j <= input.Length - 1; j++)
+					{
+
+					 for (int i = 0; i <= input.Length - 1; i++)
+						{
+						if (input[j] <= input[i])
+							{
+								 int temp = input[j];
+								 input[j] = input[i];
+								 input[i] = temp;
+
+						 }
+					 }
+				 }
 
 ## Questions
 1. How this code can sort number from smaller to larger
@@ -36,4 +50,4 @@ Answer: เพื่อตรวจสอบว่าตัวเลขนั้
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer:ช้าขึ้นเพราะ มีการวงลูปมากขึ้น แต่จะไม่เห็นความแตกต่างเพราะโปรแกรมเป็นโปรแกรมเล็กๆ

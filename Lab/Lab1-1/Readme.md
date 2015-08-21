@@ -8,7 +8,7 @@
 
 ## Revision, put your commit number here
 * Sort from larger to smaller: 2c766ec3573e12fe2b34ef01819dcaedaf35ff87
-* Without flag:
+
 
 ## Questions
 1. How this code can sort number from smaller to larger
@@ -25,7 +25,7 @@ Answer: [i-1,(i-1)^2]
 
 4. Why we need flag variable ? 
 
-Answer: เป็นตัวกำหนดเงื่อนไขในการเข้า loop while อีกครั้งในกรณีที่เลขทั้งหมดยังเรียงไม่เสร็จ 
+Answer: เป็นตัวกำหนดเงื่อนไขในการเข้า loop while ถ้าเลขทั้งหมดเรียงเสร็จหมดแล้วจะออกจากการวนลูปทันที
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 

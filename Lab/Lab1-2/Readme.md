@@ -5,7 +5,7 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
+* Three functions: 256ff0b1035b3c530314dc08e7eb194f2d371260
 * Get input from command line:
 
 ## Questions

@@ -10,7 +10,6 @@ namespace Lab1_2
     {
         static void Main(string[] args)
         {
-
             // input
             int[] input = input_func();
 
@@ -18,14 +17,27 @@ namespace Lab1_2
             int[] Answer = process_func(input);
 
             // output
+            Console.WriteLine("Answer: ");
             output_func(Answer);
         }
 
         // input fucntion
         static public int[] input_func()
         {
-            int[] a = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-            return a;
+            Console.WriteLine("Size?: ");
+            int size = int.Parse(Console.ReadLine());
+            Console.WriteLine(" ");
+            int[] tmp_input = new int[size];
+
+            for (int i = 0; i < size; i++) {
+                Console.WriteLine((i + 1) + ": ");
+
+                tmp_input[i] = int.Parse(Console.ReadLine());
+                Console.WriteLine(" ");
+            }
+
+           // int[] a = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            return tmp_input;
         }
 
         // process fucntion

@@ -11,4 +11,4 @@
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: ข้อจำกัดคือ จะต้องใส่ค่าจำนวนที่ต้องการจะจัดเรียงก่อน และ ต้องใส่ค่าแล้วกดเอนเตอร์เท่านั้น.

@@ -10,7 +10,15 @@ namespace Lab1_2
     {
         static int[] input2()
         {
-            int[] ins = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            int size;
+            Console.Write("Enter size: ");
+            size = int.Parse(Console.ReadLine());
+            int[] ins = new int[size];
+            for (int i = 1; i <= size; i++)
+            {
+                Console.Write(i + ": ");
+                ins[i - 1] = int.Parse(Console.ReadLine());
+            }
             return ins;
         }
         static void process(ref int[] input)

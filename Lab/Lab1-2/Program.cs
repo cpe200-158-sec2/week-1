@@ -10,7 +10,7 @@ namespace Lab1_2
     {
         static int[] input2()
         {
-            int[] ins= { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            int[] ins = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
             return ins;
         }
         static void process(ref int[] input)
@@ -36,7 +36,7 @@ namespace Lab1_2
         }
         static void output(ref int[] input)
         {
-            for (int i = 0; i != size; i++)
+            for (int i = 0; i != input.Length; i++)
             {
                 Console.Write(input[i]);
                 Console.Write(" ");

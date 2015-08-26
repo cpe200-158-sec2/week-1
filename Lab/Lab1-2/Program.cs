@@ -11,8 +11,17 @@ namespace Lab1_2
         
         static int[] inputt()
         {
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-           
+         
+            Console.Write("Enter size: ");
+            int size = int.Parse(Console.ReadLine());
+            int[] input = new int[size];
+            for (int i=0; i < size; i++)
+            {
+                Console.Write("Enter number: ");
+                input[i] = int.Parse(Console.ReadLine());
+            }
+
+
             return input;
         }
 

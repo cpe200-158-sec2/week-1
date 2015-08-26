@@ -11,4 +11,4 @@
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer:ในการรับค่าจากผู้ใช้ จะต้องให้ผู้ใช้ระบุจำนวนข้อมูลที่ต้องการเรียงก่อน และขณะรับจำนวนต้องกดจำนวนแล้วกด Enter เท่านั้น

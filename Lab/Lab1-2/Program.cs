@@ -12,7 +12,12 @@ namespace Lab1_2
         // input
         static int[] input()
         {
-            int[] c = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            int[] c=new int[10];
+            for (int i = 0; i <10; i++)
+            {
+               c[i] = int.Parse(Console.ReadLine());
+            }
+               
             return c;
         }
         

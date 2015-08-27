@@ -6,9 +6,9 @@
 
 ## Revision, put your commit number here
 * Three functions: 2a2f97f003354e0b1630ce7ac5d655fac82702fe
-* Get input from command line:
+* Get input from command line: bce36b0747afeabe1ccf5491d45c4ce4b0db11dd
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: ยังไม่สมบูรณ์นัก (ต้องถามจำนวนค่าที่จะรับข้อมูล ก่อนที่จะนำไปprocessได้) 

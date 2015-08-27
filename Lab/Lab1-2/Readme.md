@@ -11,4 +11,4 @@
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: the limitations of my code is it can sort only intiger.it cannot sort a decimal.

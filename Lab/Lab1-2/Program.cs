@@ -13,15 +13,24 @@ namespace Lab1_2
             bool flag = true;
 
             // input
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-
+            
+            int n;
+            Console.Write("total number : ");
+            n = int.Parse(Console.ReadLine());
+            int[] input = new int[n];
+            for (int i = 0; i< n;i++)
+            {
+                Console.Write("Enter number : ");
+                input[i]= int.Parse(Console.ReadLine());
+            }
+                
             // process
             while (flag)
             {
                 flag = false;
                 for (int i = 0; i != input.Length - 1; i++)
                 {
-                    if (input[i] > input[i + 1])
+                    if (input[i] < input[i + 1])
                     {
                         int temp = input[i];
                         input[i] = input[i + 1];
@@ -32,6 +41,7 @@ namespace Lab1_2
             }
 
             // output
+            Console.Write("Answer larger to smaller : ");
             for (int i = 0; i != input.Length; i++)
             {
                 Console.Write(input[i]);

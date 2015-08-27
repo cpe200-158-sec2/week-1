@@ -5,10 +5,10 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
+* Three functions:93ee0c13244ea69aadb7054b5d0f06cb9019900c
 * Get input from command line:
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer:ค่าที่ทำการอ่านนั้นจะจำกัดอยู่ในอินทีเจอร์ที่ถูกกำหนดไว้ใน input ตอนเเรก

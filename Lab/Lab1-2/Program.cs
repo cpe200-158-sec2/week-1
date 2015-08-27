@@ -20,8 +20,18 @@ namespace Lab1_2
         // input
         static int[] input()
      {
-            int[] x = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-          return x;
+            
+            Console.WriteLine("Plaese in put your number ...");
+            int n = int.Parse(Console.ReadLine());
+            int[] mydata = new int[n];
+                        for (int i = 0; i < n; i++)
+                            {
+                Console.Write("ENTER ", 1);
+                mydata[i] = int.Parse(Console.ReadLine());
+                
+                            }
+            //int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            return mydata;
        }
        
        // process

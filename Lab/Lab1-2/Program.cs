@@ -13,7 +13,14 @@ namespace Lab1_2
         //input 
         public static int[] inPut()
         {
-            int[] num = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            Console.WriteLine("-----Enter Max of Number-----");
+            int loop = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("-----Enter Number -----");
+            int[] num = new int[loop];
+            for (int i = 0; i < loop; i++)
+            {
+                num[i] = Convert.ToInt32(Console.ReadLine());
+            }
             return num;
         }
         //procees function
@@ -38,8 +45,11 @@ namespace Lab1_2
         //output
         public static void outPut(int[] input)
         {
+            Console.WriteLine("-----Sort Lowest to Hightest-----");
             for (int i = 0; i != input.Length; i++)
             {
+                
+          
                 Console.Write(input[i]);
                 Console.Write(" ");
             }

@@ -15,7 +15,15 @@ namespace Lab1_2
 
         static int[] inputfn()
         {
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            Console.Write("Size of numbers to input : ");
+            int size = Convert.ToInt32(Console.ReadLine());
+            int[] input = new int[size];
+
+            Console.WriteLine("Enter numbers ");
+            for (int i = 0; i < size; i++)
+            {
+                input[i] = Convert.ToInt32(Console.ReadLine());
+            }
 
             return input;
         }

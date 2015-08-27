@@ -11,8 +11,17 @@ namespace Lab1_2
         //input function
         public static int[] inputfunct()
         {
-            int[] a = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-            return a;
+            Console.WriteLine("How many size of number?: ");
+            int size = int.Parse(Console.ReadLine());
+            Console.WriteLine(" ");
+            int[] input = new int[size];
+            for (int i = 0; i < size; i++)
+            {
+                Console.WriteLine((i + 1) + ": ");
+                input[i] = int.Parse(Console.ReadLine());
+                Console.WriteLine(" ");
+                }
+            return input;
         }
 
         //procees function
@@ -56,6 +65,7 @@ namespace Lab1_2
             processfunc(input);
 
             // output
+            Console.WriteLine("The result: ");
             outputfunc(input);
         }
     }

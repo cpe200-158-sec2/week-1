@@ -11,4 +11,4 @@
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:ถ้าจำนวนของตัวเลขมากกว่าขีดจำกัดของint จะไม่่่สามารถคำนวนได้
+Answer:ถ้าจำนวนของตัวเลขมากกว่าขีดจำกัดของint จะไม่่่สามารถคำนวนได้ 

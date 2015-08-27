@@ -21,8 +21,10 @@ namespace Lab1_2
         //input
         static int[] inp()
         {
-            int[] num = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-            return num;
+            Console.Write("Enter Number : ");
+            string recieve = Console.ReadLine();
+            int[] input = recieve.Split(' ').Select(integer => Convert.ToInt32(integer)).ToArray();
+            return input;
         }
 
         // process

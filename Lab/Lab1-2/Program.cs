@@ -21,8 +21,21 @@ namespace Lab1_2
         // input
         static int[] inputfx()
         {
-            int[] num = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-            return num;
+           
+            Console.WriteLine("how many your number ? : ");
+            int num = int.Parse(Console.ReadLine());
+
+            int[] input = new int[num];
+
+            for (int i=0; i !=input.Length ;i++)
+            {
+                Console.WriteLine("Input your number : ");
+                input[i] = int.Parse(Console.ReadLine());
+
+            }
+
+         
+            return input;
         }
                 
 

@@ -16,7 +16,7 @@ namespace Lab1_2
         static int[] inputfn()
         {
             int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-     
+
             return input;
         }
 
@@ -37,7 +37,7 @@ namespace Lab1_2
                     }
                 }
             }
-            return 0;
+            return num;
         }
 
         static int[] outputfn(int[] output)
@@ -48,8 +48,8 @@ namespace Lab1_2
                 Console.Write(" ");
             }
             Console.ReadKey();
-            return 0;
+            return output;
         }
-
+        
     }
 }

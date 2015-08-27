@@ -29,8 +29,15 @@ namespace Lab1_2
 
         public static int[] inp()
         {
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-            return input;
+            Console.Write("Enter total num : ");
+            int total = int.Parse(Console.ReadLine());
+            int[] num = new int[total];
+            for(int i=0; i<total; i++)
+            {
+                Console.Write("Number " + (i + 1) + " equl = ");
+                num[i] = int.Parse(Console.ReadLine());
+            }
+            return num;
         }
 
         public static void output(int[] input)

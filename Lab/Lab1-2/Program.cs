@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,10 +10,21 @@ namespace Lab1_2
     {
         static void Main(string[] args)
         {
+            Console.Write("How many numbers will be sorted?\n");
+            int x = Convert.ToInt32(Console.ReadLine());
+
+            int[] input = new int[x];
+
+            for (int i = 0; i != input.Length; i++)
+            {
+                Console.Write("Enter number : ");
+                input[i] = Convert.ToInt32(Console.ReadLine());
+            }
+           
+
             bool flag = true;
 
-            // input
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            
 
             // process
             while (flag)
@@ -32,7 +43,8 @@ namespace Lab1_2
             }
 
             // output
-            for (int i = 0; i != input.Length; i++)
+            Console.Write("Sorted from lesser to greater number.\n");
+            for (int i = 0; i != input.Length; i++) 
             {
                 Console.Write(input[i]);
                 Console.Write(" ");

@@ -10,9 +10,12 @@ namespace Lab1_2
 {
     class BubbleSortFunction
     {
-        public static int[] input_func()
+        public static int[] input_func(int[] a)
         {
-            int[] a= { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            for (int i = 0; i != 10; i++)
+            {
+                a[i] = int.Parse(Console.ReadLine());
+            }
             return a;
         }
         public static void process_func(int[] a)
@@ -36,7 +39,6 @@ namespace Lab1_2
         }
         public static void output_func(int[] a)
         {
-           
             for (int i = 0; i != a.Length; i++)
             {
                 Console.Write(a[i]);
@@ -46,9 +48,12 @@ namespace Lab1_2
         }
         static void Main(string[] args)
         {
-            int[] input = input_func();
+            int[] input = new int[10];
+            input_func(input);
             process_func(input);
             output_func(input);
+            
+
         }
     }
 }

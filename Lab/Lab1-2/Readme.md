@@ -11,4 +11,5 @@
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer:ไม่สามารถรับ input ที่มีขนาดใหญ่ได้ และ input ที่ไม่ถูกต้อง
+	   

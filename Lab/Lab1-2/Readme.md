@@ -5,10 +5,10 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
-* Get input from command line:
+* Three functions: e2150081d8c33f90ffd6ebf46e266d64fd76abcc
+* Get input from command line: 06cd4c7f92220fe45bd4a27258d9b495a7f5b448
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: ไม่สามารถใส่ค่าที่ไม่ใช่จำนวนเต็มได้

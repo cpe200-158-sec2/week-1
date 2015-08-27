@@ -10,34 +10,49 @@ namespace Lab1_2
     {
         static void Main(string[] args)
         {
-            bool flag = true;
 
-            // input
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            int[] y = input();
+            process(y);
+            output(y);
+            Console.ReadKey();
+        }
 
-            // process
-            while (flag)
-            {
-                flag = false;
-                for (int i = 0; i != input.Length - 1; i++)
+        // input
+        static int[] input()
+     {
+            int[] x = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+          return x;
+       }
+       
+       // process
+      static void process(int[] y)
+    {
+        bool flag = true;
+        while (flag)
+        {
+            flag = false;
+                for (int i = 0; i != y.Length - 1; i++)
                 {
-                    if (input[i] > input[i + 1])
+                    if (y[i] > y[i + 1])
                     {
-                        int temp = input[i];
-                        input[i] = input[i + 1];
-                        input[i + 1] = temp;
+                        int temp = y[i];
+                        y[i] = y[i + 1];
+                        y[i + 1] = temp;
                         flag = true;
                     }
                 }
             }
 
-            // output
-            for (int i = 0; i != input.Length; i++)
+        }
+        // output
+        static void output(int[] y)
+        {
+            for (int i = 0; i != y.Length; i++)
             {
-                Console.Write(input[i]);
+                Console.Write(y[i]);
                 Console.Write(" ");
             }
-            Console.ReadKey();
         }
+
     }
-}
+    }

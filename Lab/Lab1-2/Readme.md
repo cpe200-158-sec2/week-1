@@ -11,5 +11,5 @@
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:ไม่สามารถรับ input ที่มีขนาดใหญ่ได้ และ input ที่ไม่ถูกต้อง
+Answer: ไม่สามารถรับ input ที่มีขนาดใหญ่ได้ และ  ไม่แจ้งเตือนเมื่อใส่ input ผิด 
 	   

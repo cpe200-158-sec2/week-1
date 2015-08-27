@@ -10,17 +10,19 @@ namespace Lab1_2
     {
         static void Main(string[] args)
         {
-            output(pro(input()));
+            output(process(input()));
             Console.ReadKey();
         }
-
+        // input
         static int[] input()
         {
+            Console.WriteLine("Input your Numbers For Process :");
             string recieve = Console.ReadLine();
             int[] input = recieve.Split(' ').Select(integer => Convert.ToInt32(integer)).ToArray();
             return input;
         }
-        static int[] pro(int[] input)
+        // process
+        static int[] process(int[] input)
         {
             bool flag = true;
             while (flag)
@@ -39,8 +41,10 @@ namespace Lab1_2
             }
             return input;
         }
+        // output
         static void output(int[] input)
         {
+            Console.WriteLine("Numbers already sort :");
             for (int i = 0; i != input.Length; i++)
             {
                 Console.Write(input[i]);

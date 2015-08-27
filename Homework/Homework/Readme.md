@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: ใช้ if-else เพื่อหยุดกระบวน recursive ตามเงื่อนไข
 
 
 # Resources

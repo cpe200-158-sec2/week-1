@@ -23,7 +23,7 @@ Answer:  its will go to the next number.its will not get in a if loop.
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
 Answer: 27 times
-
+ 
 4. Why we need flag variable ? 
 
 Answer:  to choose the case of number to the next step.to get in a loop or to get out a loop.

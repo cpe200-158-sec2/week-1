@@ -21,9 +21,12 @@ namespace HW1
             return result;
         }
         static void Main(string[] args)
-        {
-            int j = 5;
-            Console.WriteLine(process(j));
+        {       
+            string myInput;
+            int Num;
+            Console.Write("Input number: ");
+            myInput = Console.ReadLine();
+            Num = Int32.Parse(myInput);                      Console.WriteLine(process(Num));
             Console.ReadKey();
         }
     }

@@ -5,10 +5,10 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
-* Get input from command line:
+* Three functions: 582a56dca9bff071af7f709ab7738a77ff96fae4
+* Get input from command line: d294fb74de8c4de494729e002ac17ca09a6d619f
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: เรียงได้เฉพาะเลขที่เป็นจำนวนเต็มInteger และผู้ใช้ต้องกำหนดว่าจะเรียงตัวเลขกี่จำนวนแล้วโปรแกรมจึงจะเรียงตัวเลขให้ตามจำนวนที่ผู้ใช้กำหนด

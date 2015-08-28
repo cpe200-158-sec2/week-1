@@ -7,26 +7,26 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller:
-* Without flag:
+* Sort from larger to smaller:5eb88cfa
+* Without flag: d26ea14b
 
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: เช็คสมาชิกในอาเรบ์ทุกตัวแรกว่ามีค่ามากกว่าตัวถัดไปหรือเปล่า ถ้ามากกว่าให้สลับ แล้วก็เปรียบเทียบค่าตัวถัดไปอีกเรื่อยๆจนหมดอาเรย์
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: ไม่สลับและ flag = false
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: 9
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: เพื่อให้โปรแกรมรู้ว่า sort เสร็จแล้ว จึงเบรค
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: เร็วขึ้นในเคสที่สมาชิกจัดเรียงมาอยู่แล้วกับเคสที่ตัวแรกมีค่ามากที่สุดและตัวต่อๆไปจัดเรียงกันอยู่แล้ว

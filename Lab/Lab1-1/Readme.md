@@ -13,20 +13,22 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: this code use bubblesort way.its have bool to select the case of the number.if the number is larger than each one.the bool will go false.and when its false.its will get in to for loop to do the process.at the end of the solution the bool will change to true. 
+
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer:  its will go to the next number.its will not get in a if loop. 
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: 27 times
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer:  to choose the case of number to the next step.to get in a loop or to get out a loop.
+
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer:if we remove flag.the information that done before.it will make the process slower and it will go faster if dont have while loop.

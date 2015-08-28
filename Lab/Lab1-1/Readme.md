@@ -7,26 +7,26 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller:
-* Without flag:
+* Sort from larger to smaller: a9ad789a7aca4ff5a47a06d8ca4253de99109e55
+* Without flag: 6d9cc555f37d99c8526b7032303dd18084cd0918
 
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: compare numbers 1 by 1 from input array , first position in array to last.
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: which one come first go to first.
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: n*(n-1)
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: to check that already sorted.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: slower cause it need to check condition in every numbers. if use flag , just check this variable that follow the condition.

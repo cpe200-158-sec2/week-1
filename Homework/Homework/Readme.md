@@ -6,7 +6,8 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: to check input number to stop the process.
+
 
 
 # Resources

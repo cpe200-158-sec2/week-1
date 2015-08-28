@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: เพราะว่า base case ของrecursive โปรเเกรมfactorial คือ  1 เลยต้องมี if else มาใช้ เช็คว่าค่่าของตัวเลขถึง base case เเล้วหรือยัง
 
 
 # Resources

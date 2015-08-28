@@ -8,25 +8,33 @@ namespace Lab1_2
 {
     class BubbleSortFunction
     {
+        static int[] input;
         static void Main(string[] args)
         {
-            bool flag = true;
-
-            // input
             int l;
-
             Console.Write("How many number : ");
             l = Convert.ToInt32(Console.ReadLine());
-
-            int[] input = new int[l];
+            input = new int[l];
+            
+            // input
+            Input();
+            // process
+            Process();
+            // output
+            Output();
+        }
+        static public void Input()
+        {
 
             for (int i = 0; i != input.Length; i++)
             {
                 Console.Write("Input Number : ");
                 input[i] = Convert.ToInt32(Console.ReadLine());
             }
-
-            // process
+        }
+        static public void Process()
+        {
+            bool flag = true;
             while (flag)
             {
                 flag = false;
@@ -42,7 +50,9 @@ namespace Lab1_2
                 }
             }
 
-            // output
+        }
+        static public void Output()
+        {
             Console.Write("Sort number larger to smaller : ");
             for (int i = 0; i != input.Length; i++)
             {

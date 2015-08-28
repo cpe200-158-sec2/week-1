@@ -6,7 +6,8 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: ใช้หยุดการทำงานของ recursive function ของการคำนวนเฟคทอเรียล 
+โปรแกรมจะเข้าเงื่อนไข if ไปเรื่อยๆ จึงต้องใช้ else เพื่อหยุดการทำงานของโปรแกรม โปรแกรมจะหยุดการทำงานเมื่อค่า i = 1
 
 
 # Resources

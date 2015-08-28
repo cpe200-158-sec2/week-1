@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: เพื่อเป็นการตั้งเงื่อนไขที่ใช้ในการรันของโปรแกรม โดยจะรันเป็นไปเรื่อยๆและเรียกใช้ตัวเองจากเงื่อนไข if จนกว่าจะถึงเงื่อนไขที่ else จึงจบจบการทำงาน และ return ค่า
 
 
 # Resources

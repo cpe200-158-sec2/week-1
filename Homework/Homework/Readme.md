@@ -6,7 +6,8 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+
+Answer: Because we need to check the number if it not less than 1, it gonna run process agian with (number - 1) until number less than 1;
 
 
 # Resources

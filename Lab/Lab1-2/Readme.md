@@ -5,10 +5,11 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
-* Get input from command line:
+* Three functions: 27e02562e214d17509bb96d2d624f3acb6885063
+* Get input from command line: 5659229c3f1003b5ca4b388d51c1674283d21b40
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: มีข้อจำกัด คือ ต้องใส่จำนานตัวเลขระบุว่าเราจะนำตัวเลขมาเรียงค่าทั้งหมดกี่ตัว โดยไม่สามารถใส่เกินตัวเลขที่มีขนาดอยู่นอกขอบเขตของตัวแปรชนิด int ได้ และใส่เป็นค่าลบไม่ได้
+แล้วการใส่จำนวนแต่ละครั้งจะไม่สามารถใส่เกินตัวเลขที่มีขนาดอยู่นอกขอบเขตของตัวแปรชนิด double ได้ 

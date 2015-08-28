@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: เพื่อให้ฟังชั่นหยุดเพราะมันเรียกใช้ตัวเอง ถ้าไม่มี else ฟังชั่นจะทำงานต่อไปเรื่อยๆไม่มีสิ้นสุด
 
 
 # Resources

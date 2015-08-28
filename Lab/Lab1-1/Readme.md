@@ -31,4 +31,4 @@ Answer:  to choose the case of number to the next step.to get in a loop or to ge
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:if we remove flag.the information that done before.it will make the process slower and it will go faster if dont have while loop.
+Answer:if we remove flag.the information that done before.it will make the process slower and it will go faster if dont have while loop. 

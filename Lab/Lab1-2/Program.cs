@@ -11,8 +11,8 @@ namespace Lab1_2
         static void Main(string[] args)
         {
             {
-                output(process(input()));
-                Console.ReadKey();
+               output(process(input()));
+               Console.ReadKey();
             }
 
             static int[] input()

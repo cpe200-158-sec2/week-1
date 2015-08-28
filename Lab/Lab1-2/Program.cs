@@ -44,7 +44,7 @@ namespace Lab1_2
                 Console.Write(a[i]);
                 Console.Write(" ");
             }
-            Console.ReadKey();
+            
         }
         static void Main(string[] args)
         {

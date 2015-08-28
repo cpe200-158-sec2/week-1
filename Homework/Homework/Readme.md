@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: เพื่อกำหนดค่าขั้นต่ำที่จะเข้าใน Recursive นี้ เพื่อให้ใส่ค่า 0 และค่าติดลบได้
 
 
 # Resources

@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer:to classify  the case number that more than 1 and the number that equal or less than 1.
 
 
 # Resources

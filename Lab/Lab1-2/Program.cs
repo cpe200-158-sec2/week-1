@@ -8,36 +8,63 @@ namespace Lab1_2
 {
     class BubbleSortFunction
     {
-        static void Main(string[] args)
+        
+        static int[] inputt()
         {
-            bool flag = true;
+         
+            Console.Write("Enter size: ");
+            int size = int.Parse(Console.ReadLine());
+            int[] input = new int[size];
+            for (int i=0; i < size; i++)
+            {
+                Console.Write("Enter number: ");
+                input[i] = int.Parse(Console.ReadLine());
+            }
 
-            // input
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
 
-            // process
-            while (flag)
+            return input;
+        }
+
+        static int[] process (int[] a)
+        {
+           
+             bool flag = true;
+             while (flag)
             {
                 flag = false;
-                for (int i = 0; i != input.Length - 1; i++)
+                for (int i = 0; i != a.Length - 1; i++)
                 {
-                    if (input[i] > input[i + 1])
+                    if (a[i] > a[i + 1])
                     {
-                        int temp = input[i];
-                        input[i] = input[i + 1];
-                        input[i + 1] = temp;
+                        int temp = a[i];
+                        a[i] = a[i + 1];
+                        a[i + 1] = temp;
                         flag = true;
                     }
                 }
             }
 
-            // output
-            for (int i = 0; i != input.Length; i++)
+            return a;
+        }
+
+        static void output (int[] a)
+        {
+            for (int i = 0; i != a.Length; i++)
             {
-                Console.Write(input[i]);
+                Console.Write(a[i]);
                 Console.Write(" ");
             }
             Console.ReadKey();
+        }
+        
+
+        static void Main(string[] args)
+        {
+
+            int[] intt = inputt();
+            process(intt);
+            output(intt);
+          
         }
     }
 }

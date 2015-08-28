@@ -22,7 +22,8 @@ namespace HW1
         }
         static void Main(string[] args)
         {
-            int j = 5;
+            Console.WriteLine("facNumber");
+            int j = int.Parse(Console.ReadLine());
             Console.WriteLine(process(j));
             Console.ReadKey();
         }

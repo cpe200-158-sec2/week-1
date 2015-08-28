@@ -11,4 +11,5 @@
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: โปรแกรมจะทำงานผิดพลาดหากป้อนข้อมูลผิด.
+		 

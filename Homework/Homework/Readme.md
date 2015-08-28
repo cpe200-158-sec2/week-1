@@ -7,7 +7,7 @@
 * Why we need "if-else" in function process?
 
 Answer:
-
+	การทำงานในส่วนของโปรแกรม จะสังเกตเห็นได้มีการทำงานตามเงื่อนไขคือ 
 
 # Resources
 * https://en.wikipedia.org/wiki/Recursion_(computer_science)

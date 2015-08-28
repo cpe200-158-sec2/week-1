@@ -8,16 +8,19 @@ namespace Lab1_2
 {
     class BubbleSortFunction
     {
-        static int[] source = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+        static int[] source;
         static void Main(string[] args)
-        {           
+        {
+            source = new int[10];
             input();
             process();
             output();
         }
         static public void input()
         {
-
+            int i;
+            for (i = 0; i < 10; i++)
+                source[i] = Convert.ToInt32(Console.ReadLine());
         }
 
        static public void process()

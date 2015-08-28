@@ -5,10 +5,10 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions: 
-* Get input from command line:
+* Three functions: bbffcb546dcb444c53723e34a62847107f2212d7
+* Get input from command line: 
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: รับค่าสมาชิกได้ 1 ตัวต่อ 1 บรรทัด และรับสมาชิกได้ทั้งหมด 10 ต้องกรอกให้ครบ 10 ตัวเท่านั้น

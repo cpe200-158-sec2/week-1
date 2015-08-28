@@ -22,7 +22,10 @@ namespace HW1
         }
         static void Main(string[] args)
         {
-            int j = 5;
+            int j;
+            Console.Write("Enter the  number :");
+            j = Convert.ToInt32(Console.ReadLine());
+            
             Console.WriteLine(process(j));
             Console.ReadKey();
         }

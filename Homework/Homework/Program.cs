@@ -22,7 +22,9 @@ namespace HW1
         }
         static void Main(string[] args)
         {
-            int j = 5;
+            Console.WriteLine("Input: ");
+            int j = int.Parse(Console.ReadLine());
+            Console.WriteLine("Output: ");
             Console.WriteLine(process(j));
             Console.ReadKey();
         }

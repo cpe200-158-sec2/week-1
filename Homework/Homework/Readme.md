@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: เนื่องจากฟังก์ชัน process เป็นฟังก์ชันแบบรีเคอซีฟ จึงต้องใช้ if-else ในการกำหนดเงื่อนไขฐานเพื่อที่จะให้ฟังก์ชันหยุดเรียกใช้ตัวเอง และส่งค่ากลับออกมา
 
 
 # Resources

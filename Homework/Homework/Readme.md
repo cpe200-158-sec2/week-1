@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer:เพราะเป็นตัวที่ใช้ในการคำนวณในโปรแกรมนี้และเป็นเงือนไขในการออกจาก loop โปรแกรม
 
 
 # Resources

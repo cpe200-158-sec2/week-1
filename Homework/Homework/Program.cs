@@ -22,6 +22,7 @@ namespace HW1
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("Input your number");
             int j = int.Parse(Console.ReadLine()); 
             Console.WriteLine(process(j));
             Console.ReadKey();

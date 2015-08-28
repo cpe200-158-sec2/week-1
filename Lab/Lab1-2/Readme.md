@@ -5,10 +5,10 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
-* Get input from command line:
+* Three functions:0b8e3f67c826114684a942490f1bdbeaeb0f9363
+* Get input from command line:84dea81e8d7f18e7097b36059919444f06069871
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: the limitations of my code is it can sort only intiger.it cannot sort a decimal.

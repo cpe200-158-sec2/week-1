@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer:เพราะต้องมีเคสสำหรับค่า base เริ่มต้น ของฟังก์ชันประเภท recursive ไม่เช่นนั้นจะเกิดการวนซ้ำไม่สิ้นสุด และจะให้ผลลัพธ์ออกมาไม่ได้
 
 
 # Resources

@@ -7,26 +7,26 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller:
-* Without flag:
+* Sort from larger to smaller:6422c04b579e466d595b9fcf50d475a316c47eca
+* Without flag:1b16e61fb07595584f5762221f1910976fd44e9c
 
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: โปรเเกรมจะทำการวนลูป โดยมีการกำหนดเงื่อนไขเอาไว้ว่าถ้าตัวเลขลำดับที่น้อยกว่านั้นมีค่ามากกว่าลำดับถัดไปจะทำการสลับตัวหลังมาไว้ด้านหน้า โดยในลูปเเต่ละรอบจะจัดตัวเลขไปเรื่อยๆจนกว่าเลขทั้งหมดจะเรียงกัน
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: จะไม่มีการเคลื่อนย้ายหรือสลับตัวเลขใดๆ เพราะไม่ได้ถูกกำหนดอยู่ในเงื่อนไขที่โปรเเกรมต้องทำ
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: O(n*log n)
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: เพื่อให้เป็นตัวกำหนดว่ากรณีเเต่ละกรณีนั้นเข้าเงื่อนไข true หรือ false เพื่อให้เข้าลูปเเละทำงานในรอบต่อไป ถ้าไม่มีการสลับก็จะเกิดการตัดโปรเเกรมออก
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer:จะเร็วกว่าเคสที่ถูกเรียงไว้อยู่เเล้ว

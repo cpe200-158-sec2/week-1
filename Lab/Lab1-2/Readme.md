@@ -11,4 +11,5 @@
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer:		The variable is declared as an integer makes the code unable to run with decimal numbers.
+			เนื่องจากประกาศตัวแปรเป็น integer จึงทำให้ไม่สามารถเรียงเลขที่มีทศนิยมได้

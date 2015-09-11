@@ -13,21 +13,25 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: โปรแกรมจะทำการสลับเลขเทียบกับตัวต่อไป โดยจะทำต่อไปเรื่อยๆ 
+Answer:		The code will swap numbers by comparing with the next number. 
+			โปรแกรมจะทำการสลับเลขเทียบกับตัวต่อไป โดยจะทำต่อไปเรื่อยๆ 
 
 2. What if two numbers equal, what will happen? 
 
-Answer: จะไม่เกิดการสลับที่ 
+Answer:		They will not swap places.
+			จะไม่เกิดการสลับที่ 
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: อย่างน้อย (n-1) รอบ
-		อย่างมาก (n-1)^2 รอบ
+Answer:		A minimum of (n-1) and at most (n-1)^2 	
+			อย่างน้อย (n-1) รอบและอย่างมาก (n-1)^2 รอบ
 
 4. Why we need flag variable ? 
 
-Answer: เพื่อนตรวจสอบความถูกต้องขอโปรแกรมว่าเรียงตัวเลขถูกต้องหรือไม่
+Answer:		To check if the code works correctly or not.
+			เพื่อนตรวจสอบความถูกต้องขอโปรแกรมว่าเรียงตัวเลขถูกต้องหรือไม่
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer: โปรแกรมจะรันเร็วขึ้นแต่สามารถเกิดข้อผิดพลาดได้ (อาจได้ผลลัพท์ที่ไม่ถูกต้อง)
+Answer:		The code will run faster but the results may be in correct.
+			โปรแกรมจะรันเร็วขึ้นแต่สามารถเกิดข้อผิดพลาดได้ (อาจได้ผลลัพท์ที่ไม่ถูกต้อง)

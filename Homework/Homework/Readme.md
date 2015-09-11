@@ -6,7 +6,8 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer:	The "if-else" function stops the recursive function that calculates the factorial.
+		ใช้เพื่อหยุด recursive ฟังค์ชั่นที่ใช้คำนวณหาแฟคทเรียล
 
 
 # Resources

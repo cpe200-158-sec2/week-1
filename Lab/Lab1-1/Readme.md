@@ -29,4 +29,4 @@ Answer: เพื่อทำการวนลูปเมื่อค่า fl
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: เมื่อนำค่า flag ออกจะทำให้ลูป for ทำงานมากขึ้น โปรแกรมจะทำงานช้าลง

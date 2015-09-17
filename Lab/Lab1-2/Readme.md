@@ -5,10 +5,10 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
+* Three functions: 
 * Get input from command line:
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: ต้องใส่จำนานตัวเลขว่าเราจะนำตัวเลขมาเรียงกี่ตัว โดยไม่สามารถใส่ตัวเลขที่มีขนาดเกินขอบเขตของตัวแปรชนิด int ได้ และใส่เป็นค่าลบไม่ได้

@@ -11,7 +11,7 @@ namespace Lab1_2
 
         static void Main(string[] args)
         {
-            output(process(inputFunction()));
+            outputFunction(processFunction(inputFunction()));
             
         }
 
@@ -20,7 +20,16 @@ namespace Lab1_2
         static int[] inputFunction()
         {
             int input[] = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-            return input;
+            Console.Write("Size of numbers to input : ");
+            int size = Convert.ToInt32(Console.ReadLine());
+            int[] input = new int[size];
+
+            Console.WriteLine("Enter numbers ");
+            for (int i = 0; i < size; i++)
+            {
+                input[i] = Convert.ToInt32(Console.ReadLine());
+            }
+                return input;
         }
 
         static int[] processFunction(int[] inputnumber)

@@ -11,46 +11,48 @@ namespace Lab1_2
 
         static void Main(string[] args)
         {
-            output(process(input()));
-            Console.ReadKey();
+            output(process(inputFunction()));
+            
         }
 
 
 
-        static int[] input()
+        static int[] inputFunction()
         {
-            int input[] = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 }
+            int input[] = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
             return input;
         }
 
-        static int[] process(int[] input)
+        static int[] processFunction(int[] inputnumber)
         {
             bool flag = true;
             while (flag)
             {
                 flag = false;
-                for (int i = 0; i != input.Length - 1; i++)
+                for (int i = 0; i != inputnumber.Length - 1; i++)
                 {
-                    if (input[i] > input[i + 1])
+                    if (inputnumber[i] > inputnumber[i + 1])
                     {
-                        int temp = input[i];
-                        input[i] = input[i + 1];
-                        input[i + 1] = temp;
+                        int temp = inputnumber[i];
+                        inputnumber[i] = inputnumber[i + 1];
+                        inputnumber[i + 1] = temp;
                         flag = true;
                     }
                 }
             }
 
-            return input;
+            return 0;
         }
 
-        static int[] output(int[] input)
+        static int[] outputFunction(int[] output)
         {
-            for (int i = 0; i != input.Length; i++)
+            for (int i = 0; i != output.Length; i++)
             {
-                Console.Write(input[i]);
+                Console.Write(output[i]);
                 Console.Write(" ");
             }
+            Console.ReadKey();
+            return 0;
         }
 
     }

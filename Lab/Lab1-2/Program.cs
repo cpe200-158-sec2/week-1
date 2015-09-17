@@ -41,7 +41,7 @@ namespace Lab1_2
                 }
             }
 
-            return 0;
+            return inputnumber;
         }
 
         static int[] outputFunction(int[] output)
@@ -52,7 +52,7 @@ namespace Lab1_2
                 Console.Write(" ");
             }
             Console.ReadKey();
-            return 0;
+            return output;
         }
 
     }
